@@ -1,6 +1,6 @@
 # El servidor FOG
 
-![imatge](./CAPTURES_M1_FOG/fog.png)
+![imatge](./CAPTURES%20M1%20FOG/fog.png)
 
 Benvingut a la introducció del servidor FOG! En aquest treball, explorarem el funcionament i els beneficis d'aquest sistema per a la clonació de imatges de disc i la gestió centralitzada en una xarxa d'ordinadors.
 
@@ -16,16 +16,16 @@ En el nostre cas hem utilitzat Ubuntu Server 20.04.6 per instal·lar el servidor
 
 Primarament configurarem la xarxa del servidor Ubuntu Server amb l'IP 192.168.0.2, porta d'enllaç 192.168.0.1, com a servidors DNS 192.168.0.1 com a principal i com a DNS secundaris 8.8.8.8 i 8.8.4.4 .
 
-![imatge](./CAPTURES_M1_FOG/Captura de pantalla de 2023-05-20 14-54-37.png)
-![imatge](./CAPTURES_M1_FOG/captura1.png)
+![imatge](./CAPTURES%20M1%20FOG/Captura de pantalla de 2023-05-20 14-54-37.png)
+![imatge](./CAPTURES%20M1%20FOG/captura1.png)
 
 Seguidament, apliquem l'arxiu .yaml amb la comanda **sudo netplan apply**, comprovem que s'ha aplicat amb la comanda **ip a** i comprovem la connectivitat realitzant un ping a www.google.com.
 
-![imatge](./CAPTURES_M1_FOG/Captura%20de%20pantalla%20de%202023-05-21%2012-52-07.png)
+![imatge](./CAPTURES%20M1%20FOG/Captura%20de%20pantalla%20de%202023-05-21%2012-52-07.png)
 
 Actualitzem la informació dels paquets disponibles a través dels repositoris d'Ubuntu.
 
-![imatge](./CAPTURES_M1_FOG/Captura de pantalla de 2023-05-20 14-59-02.png)
+![imatge](./CAPTURES%20M1%20FOG/Captura de pantalla de 2023-05-20 14-59-02.png)
 
 Instal·larem l'entorn d'escriptori d'Ubuntu per realitzar l'administració gràficament, això ens falicitarà molt les tasques.
 
